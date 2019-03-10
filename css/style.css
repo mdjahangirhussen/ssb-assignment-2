@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-7,.col-8 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.47%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+/*    header-section start    */
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+}
+
+
+.header-left {
+    background-color: #015761;
+}
+
+.logo {
+    max-width: 100%;
+    padding: 0 25px;
+
+}
+
+.logo h3 a {
+    text-decoration: none;
+    color: #E4D251;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.menu {
+    padding-left: 30px;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #FFF;
+    padding: 0 10px 0;
+}
+
+.menu ul li a:hover {
+    color: #E4D251;
+}
+
+.header-content {
+    width: 50%;
+    margin: 0 auto;
+    padding: 160px 0;
+    text-transform: capitalize;
+}
+
+.header-content h2 {
+    font-size: 28px;
+    color: #E4D251;
+    font-weight: normal;
+}
+
+.header-content h1 {
+    font-size: 45px;
+    color: #fff;
+}
+.header-content-Profession li {
+    display: inline-block;
+}
+
+.header-content-Profession li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content-Profession li a:hover {
+    color: #E4D251;
+}
+.header-image{
+    position: relative;
+}
+.header-img{
+    background: url(../images/img-1.png);
+    height: 615px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-image img {
+    padding: 0 15px 10px 0;
+    box-sizing: border-box;
+}
+
+.header-social {
+    position: absolute;
+    right:0;
+    top:170px;
+}
+
+.header-social-icon {
+    background: #F7DC4F;
+    display: inline-block;
+    list-style: none;
+}
+
+.header-social-icon li {
+    display: flex;
+}
+
+.header-social-icon a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+
+}
+
+.header-social-icon a:hover {
+    color: #fff;
+
+}
+/*    header-section end    */
+
+/*    about-section start    */
+.about {
+    background: #F1F0F0;
+    text-align: center;
+    padding: 50px 0 80px;
+}
+.about h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    color: #015761;
+}
+.video-section h1,
+.photo-section h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #015761;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about_content p {
+      max-width: 750px;
+    margin: 0 auto;
+    padding: 15px 0 35px 0;
+    color: #616161;
+    text-align: justify;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    background: #f7dc4f;
+    padding: 13px 30px;
+    color: #015761;
+}
+
+.btn:hover {
+    background: #015761;
+    color: #f7dc4f;
+}
+
+/*    about-section end    */
+
+/*    video-section start    */
+.video-section {
+    background: #fff;
+}
+
+/*    video-section end    */
+
+/*    photo-section start    */
+.gallery {
+    overflow: hidden;
+    
+}
+
+/*    photo-section end    */
+
+/*    contact-section start    */
+.contact-section {
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+
+}
+.contact-section-img{
+    background:url('../images/img-1.png');
+    height:611px;
+    background-repeat:no-repeat;
+    background-size:cover;
+  
+}
+
+.contact-info {
+    box-sizing: border-box;
+    padding: 35px 150px;
+    font-style: normal;
+    text-transform: capitalize;
+    background: #015761;
+}
+
+address.contact-info h1 {
+    font-size: 50px;
+    padding: 5px 0;
+    color: #F7DC4F;
+}
+
+.contact-info h5 {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.info {
+    color: #fff;
+    padding: 9px 0;
+    line-height: 1.5;
+}
+.info-social {
+	padding: 15px 0;
+}
+.info-social-icon li {
+    display: inline-block;
+}
+
+.info-social-icon li a {
+    padding: 10px;
+    color: #fff;
+}
+
+.info-social-icon li a:hover {
+    color: #F7DC4F;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px; 
+}
+
+/*    contact-section end    */
